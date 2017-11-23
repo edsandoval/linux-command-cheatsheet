@@ -43,4 +43,30 @@ To kill a process (say a Java process myProgram.jar):
 kill -9 `ps aux | grep myProgram.jar | grep -v grep | awk 'NR==1{print $2}'`
 ```
 
+To skill a GUI program (after that point and click on the gui to force close it):
+
+```bash
+xkill
+```
+
+## Working with Security
+
+To see the current status of linux security:
+
+```bash
+sudo getenforce
+```
+
+To turn off the linux security:
+
+```bash
+sudo setenforce 0
+```
+
+To turn on the linux security:
+
+```bash
+sudo setenforce 1
+```
+
 
