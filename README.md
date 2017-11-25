@@ -69,4 +69,18 @@ To turn on the linux security:
 sudo setenforce 1
 ```
 
+## Passwordless ssh
+
+Configure passwordless ssh from the machine-A to machine-B by performing the following steps:
+
+* Step 1: login machine-B to  to $HOME
+* Step 2: run "mkdir .ssh & touch .ssh/authorized_keys"
+* Step 3: run "sudo chmod 700 .ssh"
+* Step 4: run "sudo chmod 640 .ssh/authorized_keys"
+
+* Step 5: login onto machine-A and cd to $HOME 
+* Step 6: run "cat .ssh/id_rsa.pub | ssh machine-B 'cat >> .ssh/authorized_keys'"
+
+Alternatively, you can run ssh-copy-id which is one-step only
+
 
