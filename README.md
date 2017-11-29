@@ -73,6 +73,8 @@ sudo setenforce 1
 
 Configure passwordless ssh from the machine-A to machine-B by performing the following steps:
 
+* step 0: login machine-A and run "sudo ssh-keygen -t rsa"
+
 * Step 1: login machine-B to  to $HOME
 * Step 2: run "mkdir .ssh & touch .ssh/authorized_keys"
 * Step 3: run "sudo chmod 700 .ssh"
