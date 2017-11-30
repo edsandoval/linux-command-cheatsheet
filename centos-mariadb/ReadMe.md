@@ -13,3 +13,5 @@
 * --GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;
 * --CREATE DATABASE [your_database] CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 * --SET GLOBAL max_allowed_packet=268435456;
+
+* after quite the mysql console, copy the my.cnf in this folder to /etc/my.cnf
