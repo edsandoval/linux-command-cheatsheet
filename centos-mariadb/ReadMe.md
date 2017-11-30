@@ -15,3 +15,4 @@
 * --SET GLOBAL max_allowed_packet=268435456;
 
 * after quite the mysql console, copy the my.cnf in this folder to /etc/my.cnf
+* run "sudo systemctl restart mariadb.service"
