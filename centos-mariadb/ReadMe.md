@@ -1,6 +1,8 @@
 ## Install mariadb on CentOS (Not Secured)
 
 * run "sudo yum install -y mariadb*"
+* run "sudo systemctl enable mariadb.service"
+* run "sudo systemctl start mariadb.service"
 * run "mysql_secure_installation"
 * --specify the password to be "[your_password]" for the root user
 * --allow remote and disable anonimous login 
