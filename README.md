@@ -86,5 +86,19 @@ Configure passwordless ssh from the machine-A to machine-B by performing the fol
 
 Alternatively, you can run ssh-copy-id which is one-step only
 
+## Working with directories
+
+The following script print the full path of the directory containing the bash script being executed:
+
+```bash
+#!/usr/bin/env bash
+dir_name=`dirname "${BASH_SOURCE-$0}"`
+pwd=`pwd`
+current_dir=$pwd/$dir_name
+
+echo $current_dir
+```
+
+
 
 
