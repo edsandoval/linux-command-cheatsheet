@@ -5,7 +5,7 @@
 To change to edit mode:
 
 ```bash 
-:i 
+i 
 ```
 
 ## Save 
@@ -25,6 +25,12 @@ To exit without save:
 ```
 
 ## Delete
+
+To delete the current line:
+
+```bash 
+d$
+```
 
 To delete all content in a file:
 
