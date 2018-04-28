@@ -16,8 +16,6 @@ Now add the following dependency to your POM file:
 </dependency>
 ```
 
-```
-
 # Deploy a jar file to remote repository 
 
 Step 1: Set up your remote nexus server, let's suppose the server is at http://13.92.250.75:8081. 
