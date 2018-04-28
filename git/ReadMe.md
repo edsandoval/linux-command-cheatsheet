@@ -33,6 +33,26 @@ git commit -m "update branch-A with changes from branch-B"
 git push origin branch-A 
 ```
 
+# change remote origin url
+
+To see what is the remote origin url:
+
+```bash
+git remote show origin 
+```
+
+Or
+
+```bash
+git remote -v
+```
+
+To change that to a different url:
+
+```bash
+git remote set-url origin https://github.com/chen0040/linux-command-cheatsheet.git
+```
+
 # switch the author for committing git change 
 
 You can find out who is the author on your computer that will push the commits to the remote by running the following commands:
