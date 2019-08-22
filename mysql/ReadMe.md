@@ -1,11 +1,11 @@
 # MySQL 
 
-##Connect to server
+## Connect to server
 ```bash
 mysql -h {hostname} -P 3306 -u{username} -p{password}
 ```
 
-##Dump database to sql file
+## Dump database to sql file
 ```bash
 mysqldump -u {username} -p{password} -h {hostname} -P 3306 {db} > db.sql 
 ```
