@@ -1,6 +1,8 @@
 # git branch
 Create a new branch from master
+```bash
 git checkout -b new-branch
+```
 
 # git rebase 
 
