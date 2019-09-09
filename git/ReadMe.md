@@ -97,4 +97,11 @@ If you just want to undo the commit but not remove changes in the files, run the
 git reset --soft HEAD^1
 ```
 
+# Remove all content of repository
+
+```bash
+git rm -r .
+```
+
+
 
