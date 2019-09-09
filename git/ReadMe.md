@@ -103,5 +103,12 @@ git reset --soft HEAD^1
 git rm -r .
 ```
 
+# List all branchs
+```bash
+git branch -a
+```
+
+
+
 
 
