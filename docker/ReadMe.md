@@ -66,6 +66,10 @@ docker container rm rbot
 docker exec -it <container name> cat data/v1/out.log
 ```
 
+## Copy files between container and localhost
+```bash
+docker cp <container name>:/app/repository/prueba Proyectos/@rBot/rasa_nv_server/repository/
+```
 
 
 
