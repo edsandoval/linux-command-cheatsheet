@@ -108,6 +108,12 @@ git rm -r .
 git branch -a
 ```
 
+# Delete all .orig files
+```bash
+find . -name "*.orig" -type f -delete
+```
+
+
 
 
 
