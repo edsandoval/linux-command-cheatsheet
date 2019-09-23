@@ -113,6 +113,10 @@ git branch -a
 find . -name "*.orig" -type f -delete
 ```
 
+# Clean all local content
+```bash
+git reset --hard HEAD
+```
 
 
 
