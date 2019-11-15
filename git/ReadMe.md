@@ -4,6 +4,12 @@ Create a new branch from master
 git checkout -b new-branch
 ```
 
+# git merge 
+Merge source branch into target branch, you must be located at target branch.
+```bash
+git merge source_branch
+```
+
 # git rebase 
 
 When you are working on branch-B (for example, your feature branch) and you want to add features developed in branch-B back to branch-A (for example, the master branch) after you complete and test your feature-implementation in branch-B. The following are the commands to rebase branch-A into branch-B (make sure that your local branch-B is update-to-date before running the following command):
