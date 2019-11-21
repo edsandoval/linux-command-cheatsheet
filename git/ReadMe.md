@@ -4,6 +4,15 @@ Create a new branch from master
 git checkout -b new-branch
 ```
 
+# git stashing
+```bash
+git stash
+...
+git stash list
+...
+git stash apply
+```
+
 # git merge 
 Merge source branch into target branch, you must be located at target branch.
 ```bash
